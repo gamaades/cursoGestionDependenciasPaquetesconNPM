@@ -1,0 +1,28 @@
+{
+  "name": "random-messages",
+  "version": "1.0.1",
+  "description": "crear un paquete para NPM",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "npm"
+  ],
+  "author": "Gustavo Mañan",
+  "license": "ISC",
+  "bin": {
+    "random-msg": "bin/global.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamaades/cursoGestionDependenciasPaquetesconNPM.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gamaades/cursoGestionDependenciasPaquetesconNPM/issues"
+  },
+  "homepage": "https://github.com/gamaades/cursoGestionDependenciasPaquetesconNPM#readme"
+}
